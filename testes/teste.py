@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 def mostrar_aviso():
-    messagebox.showinfo("Aviso", """Os seguintes certificados tiveram que ter o nome original alterado:
+    messagebox.showwarning("Aviso", """Os seguintes certificados tiveram que ter o nome original alterado:
                         Juliano
                         albertinho
                         jose rodrigues""")
@@ -15,4 +15,5 @@ botao.pack(pady=20)
 
 # Iniciar o loop principal da interface gráfica
 janela.mainloop()
+
 
